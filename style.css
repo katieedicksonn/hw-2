@@ -1,42 +1,41 @@
-body { background-image: url(https://as1.ftcdn.net/jpg/01/92/60/52/500_F_192605281_ajxmu8Ly2xmOQeSjslTCvn20xirvsilI.jpg)
+body { background-image: url(https://i.pinimg.com/564x/6c/fa/7d/6cfa7d5884b0b6ce70b9f2f8a316313c.jpg)
     ;
     
 }
 header { 
     text-align: left;
     font-size: 40px;
-    ;
-    
-}
-.col-md-7 { 
-    background: lightgreen;
-    margin-top: 5%;
-    margin-left: 2%;
+    background:burlywood;
    
     
 }
 
- 
+.navbar-brand {
+  background-color:green;
+ ;
+}
+.col-md-7 { 
+    background: burlywood;
+    margin-top: 5%;
+    
+}
+
 body { 
    
     text-align:center; 
 } 
 
-  
 
 .picture { 
     width: 200px; 
     height: 200px; 
     float: left; 
     margin-right:  20px;
-    
 
 } 
   
 p { 
-    text-align: justify; 
-
-   
+    text-align: justify;  
 } 
  
 .container {
@@ -46,26 +45,24 @@ p {
     margin-top: 5%;
     border-radius: 5px;
     padding: 10px;
+   
+    
     
 }
 
-* {
-    box-sizing: border-box;
-  }
+h2 {font-size: 40px;}
   
-  /* Style inputs */
   input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical;
+    
   }
   
-#contact {background: lightgreen;}
+#contact {background: burlywood;}
   
- 
 
   
   /* Create two columns that float next to eachother */
@@ -76,13 +73,30 @@ p {
     padding: 20px;
     text-align: left;
   }
+ #portfolio {
+   background-color: burlywood;
+   color: green;
+   margin-top: 20px ;
+   
+   
+ }
+
+  .responsive {
+   padding: 10px;
+   margin-left: 10px;
+   width: 350px;
+   height: 350px;
+   
+  
+  }
+
   
 
   
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .column, input[type=submit] {
       width: 100%;
       margin-top: 0;
-    }
-  }
+    } 
+  
+
