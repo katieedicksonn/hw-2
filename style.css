@@ -10,14 +10,24 @@ header {
    
     
 }
-#aboutMe {
-  width: max-content;
-  height: max-content;
-}
+
 .col-md-7 { 
     background: burlywood;
     margin-top: 5%;
     
+}
+.card {
+  background: burlywood;
+  margin-top: 5%;
+  width: 300px;
+  height: max-content;
+  position: relative;
+    padding-top: 10px; 
+    display: inline-block; 
+    margin-top: 5%;
+    border-radius: 5px;
+    padding: 10px;  
+
 }
 body { 
    
